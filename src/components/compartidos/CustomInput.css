@@ -1,0 +1,26 @@
+  .input {
+    color: black !important;
+    --highlight-color: black;
+  }
+
+  .ion-texts {
+    font-size: 12px !important ;
+  }
+
+  .input-principal {
+    display: contents;
+  }
+
+  .password-toggle-button {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    height: 0px;
+  }
+  
+  .password-toggle-button.visible {
+    opacity: 1;
+  }
+  
+  .password-toggle-button.hidden {
+    opacity: 0;
+  }

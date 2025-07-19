@@ -1,0 +1,18 @@
+.header-modal-cliente {
+    box-shadow: none;
+}
+
+.footer-modal-cliente {
+    box-shadow: none;
+
+}
+
+.modal-cliente {
+    /* --width: 600px;
+    --min-height: 750px; */
+}
+
+.div-bottom-agregar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,9 @@
+.segment-venta{
+    width: 400px;
+}
+
+.segment-button {
+    text-transform: none;
+    color: black;
+    --color-checked: var(--ion-color-tertiary);
+}

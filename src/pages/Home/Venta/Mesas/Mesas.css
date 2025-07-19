@@ -1,0 +1,153 @@
+.ion-chip {
+    font-size: 13px;
+    min-height: 10px;
+    padding: 4px 9px;
+    width: auto;
+    margin: 2px 0px;
+}
+
+.ion-chip-proceso {
+    background: var(--ion-color-primary);
+    color: white;
+    border: none;
+}
+
+.ion-chip-ocupado {
+    background: var(--ion-color-mesaocupada);
+    color: white;
+    border: none;
+}
+
+.div-mesas > div:first-child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Opcional, para que no se desborde en pantallas pequeñas */
+  gap: 8px; /* Espacio entre los chips */
+  margin-bottom: 0.5rem;
+}
+
+.div-mesas {
+    padding: 8px 0px;
+}
+
+.segment-mesas {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  padding: 0 8px;
+  scroll-behavior: smooth;
+  border-bottom: 2px solid #ccc;
+  justify-content: flex-start; /* 👉 alineado a la izquierda */
+}
+
+.segment-button-mesas {
+    text-transform: none;
+    color: black !important;
+    --color-checked: black;
+    --background-checked: var(--ion-color-fondo);
+    border-radius: 14px;
+    border-end-end-radius: 0px;
+    border-end-start-radius: 0px;
+}
+
+.segment-button-mesas:hover {
+  --background-hover-opacity: 0;
+  background-color: var(--ion-color-fondo);;
+}
+
+.mesas-container {
+    background: var(--ion-color-fondo);
+    /* height: 100vh; */
+    top: -2px;
+    position: relative;
+    padding: 12px;
+    min-height: 370px;
+    overflow-y: auto;
+}
+
+.mesas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .mesa {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 3px rgb(0 0 0 / 20%);
+    padding: 6px;
+    cursor: pointer;
+
+  }
+
+  .titulo-mesa {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .hora-mesa {
+    font-size: 13px;
+    color: var(--ion-color-primary);
+    font-weight: 500;
+  }
+
+  .vacia-mesa{
+    width: 90px;
+    position: relative;
+  }
+
+
+  .icon-tiempo{
+    top: 1px;
+    position: relative;
+  }
+
+  .item-mesa {
+    padding-right: 15px;
+  }
+
+  .div-separar-mesas {
+    text-align: center;
+  }
+
+  .div-principal-separar-mesas {
+    padding: 0px 30px;
+  }
+
+  .div-n-personas {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .modal-separar-mesa{
+    --width: 400px;
+  }
+  
+  @media (max-width: 600px) {
+    .mesa {
+      width: 100%;
+      max-width: 130px;
+      margin: 0 auto;
+    }
+
+    .mesas-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .mesa {
+        width: 120px;
+        height: 130px;
+    }
+  }

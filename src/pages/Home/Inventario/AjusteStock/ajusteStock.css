@@ -1,0 +1,78 @@
+.div-ajuste-stock {
+    height: 100%;
+    /* justify-content: center; */
+    display: flex
+}
+
+.fBevtM div:first-child {
+    white-space: normal !important;
+}
+
+.cMpwUR {
+    overflow: visible !important;
+}
+
+.estado-activo {
+    background: var(--ion-color-success);
+    color: var(--ion-color-whiteSolo);
+    padding: 3px;
+    margin-left: 2px;
+    border-radius: 3px;
+}
+
+.estado-inactivo {
+    background: var(--ion-color-danger);
+    color: var(--ion-color-whiteSolo);
+    padding: 3px;
+    margin-left: 2px;
+    border-radius: 3px;
+}
+
+.div-rango-fechas {
+    display: flex;
+}
+
+.col-busqueda {
+    display: inline-grid;
+    align-items: end;
+}
+
+.input-busqueda {
+    padding-bottom: 0px;
+}
+
+.icono-ver {
+    color: var(--ion-color-primary);
+    cursor: pointer;
+}
+
+.icono-eliminar {
+    color: var(--ion-color-danger);
+    cursor: pointer;
+}
+
+.div-titulo {
+    display: flex;
+}
+
+.div-button-crear {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.div-registrar-ajuste{
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 425px) {
+    .div-registrar-ajuste{
+        width: 100%;
+        display: block;
+    }
+
+    .button-nuevo-ajuste{
+        width: 100%;
+    }
+}

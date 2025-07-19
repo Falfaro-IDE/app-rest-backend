@@ -1,0 +1,10 @@
+{
+    "codigo": 1,
+    "mensaje":"Todo Ok",
+    "descripcion":"Se encontro resultados",
+    "objeto": {
+            "id":0,
+            "responsable_id": 1,
+            "responsable_nombre": "Juan Perez"
+    }
+}

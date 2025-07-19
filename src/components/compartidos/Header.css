@@ -1,0 +1,22 @@
+.size-button {
+    font-size: 20px !important;
+}
+
+.size-button-movil{
+    display: none;
+}
+
+.icono-salir-header {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    .size-button {
+        display: none;
+    }
+    .size-button-movil {
+        display: block;
+    }
+}

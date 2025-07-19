@@ -1,0 +1,166 @@
+.container-iteams {
+  overflow-y: auto;
+  width: 100%;
+  /* height: calc(100vh - 60px); */ /* resto el header fijo */
+}
+
+
+.categoria-col {
+  border-right: 1px solid #ccc;
+}
+
+.subproductos {
+  padding-left: 30px;
+}
+.subproducto-item {
+  border-left: solid #007bff;
+}
+
+ion-item[selected] {
+  --background: #d0e8ff;
+}
+
+.categoria-lista {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.categoria-item {
+  margin-bottom: 8px; /* o el espacio que desees */
+}
+
+.categoria-header {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-bottom: 8px;
+}
+
+.subproducto-item {
+  padding-left: 40px;
+  background: #f9f9f9;
+}
+
+.producto-card {
+  margin-bottom: 1rem;
+}
+
+/* .subproducto-item {
+  padding-left: 2rem;
+} */
+
+.scroll-horizontal {
+  overflow-y: auto;
+  width: 100%;
+  max-height: 68vh;
+}
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.vista-productos-grid {
+  width: 100%;
+}
+
+.col-categorias {
+  max-width: 100%;
+  padding-bottom: 1rem;
+}
+
+.vista-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.vista-toggle ion-button {
+  width: 100%;
+}
+
+.categoria-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.categoria-titulo {
+  margin: 0;
+}
+
+.categoria-lista {
+  max-height: calc(100vh - 300px);
+  overflow-y: auto;
+}
+
+.col-items {
+  padding-bottom: 1rem;
+}
+
+.busqueda-barra {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.busqueda-barra ion-searchbar {
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+.botones-barra {
+  display: flex;
+  gap: 1px;
+  flex-wrap: wrap;
+}
+
+
+.lista-scroll {
+  overflow-x: auto;
+}
+
+.mensaje-vacio {
+  text-align: center;
+  padding: 1rem;
+  color: #888;
+}
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+  .busqueda-agregar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+    .vista-toggle {
+    flex-direction: row;
+  }
+
+  .vista-toggle ion-button {
+    flex: 1 1 auto;
+    width: auto;
+    white-space: nowrap;
+  }
+} 
+
+
+
+

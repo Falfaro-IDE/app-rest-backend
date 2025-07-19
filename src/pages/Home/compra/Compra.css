@@ -1,0 +1,48 @@
+
+.scroll-horizontal-compras {
+  padding: 10px;
+  overflow-y: auto;
+  width: 100%;
+  /* max-height: 90vh; */
+}
+
+.div-agregar-buscar{
+    display: flex;
+    justify-content: end;
+}
+
+.div-agregar  {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.separador-filtros {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* padding: 0px 14px; */
+    margin: 10px 0px;
+}
+
+@media (max-width: 425px) {
+  .div-agregar {
+    width: 100%;
+  }
+
+  .button-crear-compra {
+    width: 100%;
+  }
+  
+  .div-rango-fechas {
+    display: block;
+  }
+
+  .div-rango-fechas-movil{
+    margin: 30px 0px;
+    width: 100%;
+  }
+
+  .div-registrar-compra {
+    padding: 0px !important;
+  }
+}

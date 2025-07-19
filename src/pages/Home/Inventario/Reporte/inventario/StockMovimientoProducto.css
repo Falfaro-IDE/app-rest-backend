@@ -1,0 +1,29 @@
+.stock-card {
+  border-radius: 12px;
+  box-shadow: var(--ion-box-shadow);
+}
+
+.stock-inicial .stock-label {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.stock-entrada .stock-label {
+  color: #2ecc71; /* verde */
+  font-weight: bold;
+}
+
+.stock-salida .stock-label {
+  color: #e74c3c; /* rojo */
+  font-weight: bold;
+}
+
+.stock-final .stock-label {
+  color: #2980b9; /* azul */
+  font-weight: bold;
+}
+
+.stock-desc {
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}

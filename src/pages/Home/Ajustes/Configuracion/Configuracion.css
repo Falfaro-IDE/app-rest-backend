@@ -1,0 +1,17 @@
+.list-menu {
+    margin:  0px !important;
+}
+
+.selected-item {
+  background-color: #d0e7ff !important;
+  border-left: 4px solid var(--ion-color-primary);
+}
+
+.titulo-configuracion{
+    display: inline-flex;
+    align-items: center;
+}
+
+.div-button-configuracion {
+    text-align: end;
+}

@@ -1,0 +1,44 @@
+.active-item {
+    --background: var(--ion-color-primary) !important;
+    color:  white !important;
+    --color-hover: white !important;
+    border-radius: 5px;
+}
+
+.active-item-submenu {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.active-accordion {
+    color: white !important;
+}
+
+.active-item .ion-accordion-toggle-icon  {
+    color: white !important;
+}
+
+.item-icon {
+    padding-right: 5px;
+}
+
+
+.menu-toggle-movil{
+    display: none;
+}
+
+.menu-toggle-web {
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+    .menu-toggle-movil{
+        display: block;
+    }
+
+    .menu-toggle-web {
+        display: none;
+    }
+
+  }

@@ -1,0 +1,32 @@
+    .modal-validar-codigo{
+        --width: 400px;
+    }
+
+    .content-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .modal-body {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .message-text {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .icon-alerta-codigo {
+        font-size: 120px;
+        color: var(--ion-color-warning);
+    }
+
+    .item-codigo {
+        width: 250px;
+        align-items: center;
+        display: inline-block;
+    }

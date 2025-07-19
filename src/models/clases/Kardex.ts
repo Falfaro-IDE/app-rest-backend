@@ -1,0 +1,42 @@
+export class KardexClass {
+/*     id?: number = 0;
+    proceso_id?: number = 0;
+    codigo_transaccion?: string = '';
+    tipo_proceso?: number = 0;
+    tipo_movimiento?: number = 0;
+    producto_presentacion_id?: number = 0;
+    insumo_id?: number = 0;
+    cantidad?: number = 0;
+    stock_actual?: number = 0;
+    costo_unitario?: number = 0;
+    costo_total?: number = 0;
+    fecha_operacion?: string = '';
+    hora_operacion?: string = '';
+    marca_baja?: number = 0;
+    empresa_id?: number = 0;
+    usuario_id?: number = 0; */
+    id?: number;
+    proceso_id!: number;
+    codigo_transaccion?: string;
+    tipo_proceso!: number;
+    tipo_movimiento!: number;
+    producto_presentacion_id?: number | null;
+    insumo_id?: number | null;
+    cantidad!: number;
+    stock_actual!: number;
+    costo_unitario!: number;
+    costo_total!: number;
+    fecha_operacion!: string;
+    hora_operacion!: string;
+    marca_baja?: number;
+    fecha_creacion?: string;
+    hora_creacion?: string;
+    empresa_id!: number;
+    usuario_id!: number;
+    fechaInicio? : string;
+    fechaFin? : string;
+    presentacionId?: number | null;
+    insumoId?: number | null;
+    tipo_proceso_descripcion?: string;
+    tipo_movimiento_descripcion?: string;
+}

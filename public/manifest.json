@@ -1,0 +1,16 @@
+{
+    "name": "SISTEMA RESTAURANTE",
+    "short_name": "SISTEMA RESTAURANTE",
+    "description": "Mi increíble aplicación PWA con Ionic y React",
+    "theme_color": "#3880ff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "/icons/restaurant-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

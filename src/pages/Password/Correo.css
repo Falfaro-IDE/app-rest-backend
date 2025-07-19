@@ -1,0 +1,10 @@
+.div-container-correo {
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div-correo {
+    width: 500px;
+}

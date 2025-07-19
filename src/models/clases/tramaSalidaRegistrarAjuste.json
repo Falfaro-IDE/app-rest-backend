@@ -1,0 +1,23 @@
+{
+    "tipo_ajuste": 0,
+    "tipo_operacion":0,
+    "pedido_id": 0,
+    "compra_id": 0,
+    "responsable_id": 0,
+    "descripcion": "",
+    "estado": 0,
+    "fecha_ajuste": "",
+    "hora_ajuste": "",
+    "marca_baja": 0,
+    "detalle_ajuste_stock":[
+        {
+            "producto_presentacion_id": 0,
+            "cantidad": 0.0,
+            "stock_anterior": 0.0,
+            "stock_nuevo": 0.0,
+            "marca_baja": 0,
+            "precio_unitario": 0.0
+        }
+    ]
+}
+

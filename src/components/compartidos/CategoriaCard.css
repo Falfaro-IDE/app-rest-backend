@@ -1,0 +1,27 @@
+.categoria{
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+.categoria:hover {
+    color: var(--ion-color-primary);
+  }
+  
+  .categoria.activa {
+    background-color:var(--ion-color-primary);
+    color: white;
+    border: 2px solid var(--ion-color-primary);
+  }

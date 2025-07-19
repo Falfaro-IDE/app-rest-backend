@@ -1,0 +1,23 @@
+.input-error {
+  --border-color: rgb(165, 0, 0) !important;
+}
+
+.input-error ion-label {
+  color: rgb(177, 0, 0) !important;
+}
+
+.div-registrar-compra {
+  display: flex;
+  gap: 24px;
+   padding: 20px;
+}
+
+@media (max-width: 1024px) {
+  .div-registrar-compra {
+    display: block;
+  }
+
+  .datos-compra {
+    margin-bottom: 40px;
+  }
+}

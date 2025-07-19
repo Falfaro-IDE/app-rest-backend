@@ -1,0 +1,36 @@
+.scroll-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.tabla-produccion {
+  min-width: 1000px; /* Asegura scroll si hay muchas columnas */
+}
+
+.cabecera-tabla {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+}
+
+.row-tabla {
+  border-bottom: 1px solid #e0e0e0;
+  align-items: center;
+}
+
+.div-cantidad-producto {
+  display: flex;
+  flex-direction: column;
+}
+
+.span-unidad {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.span-etiqueta-produccion-lista {
+  background-color: #ffe0b2;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}

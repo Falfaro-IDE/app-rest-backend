@@ -1,0 +1,14 @@
+{
+    "codigo": 0,
+    "mensaje":"",
+    "descripcion":"",
+    "objeto": [
+        {
+            "con_id":1,
+            "con_prefijo":1,
+            "con_correlativo": 1,
+            "con_descripcion": 1,
+            "marca_baja": 1
+        }
+    ]
+}

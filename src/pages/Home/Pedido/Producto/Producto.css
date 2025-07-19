@@ -1,0 +1,48 @@
+/* .producto-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 69vh;
+} */
+.producto-grid {
+  display: flex;
+  flex-wrap: wrap; /* mantiene el diseño de productos en varias filas */
+  gap: 15px;
+  /* height: 69vh; */ /* altura fija */
+  overflow-y: auto; /* habilita scroll vertical */
+  padding-right: 8px; /* espacio para scrollbar */
+}
+
+/* Scroll estético (opcional) */
+.producto-grid::-webkit-scrollbar {
+  width: 6px;
+}
+
+.producto-grid::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+
+
+.categoria-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.buscador {
+    padding: 0px;
+}
+
+.separador {
+    height: 1px;
+    background-color: #00000038;
+    margin: 6px 0px;
+}
+
+.div-productos-grid-principal{
+    max-height: 680px;
+    overflow-y: auto;
+}

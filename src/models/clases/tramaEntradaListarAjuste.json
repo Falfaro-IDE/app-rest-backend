@@ -1,0 +1,30 @@
+{
+    "codigo": 0,
+    "mensaje":"",
+    "descripcion":"",
+    "objeto": [
+        {
+            "id":1, 
+            "fecha_ajuste": "2025-05-30",
+            "hora_ajuste": "09:00:00",
+            "tipo_ajuste_descripcion": "ENTRADA",
+            "tipo_ajuste": 1,
+            "responsable": "Juan Perez",
+            "descripcion": "",
+            "estado_descripcion": "REGISTRADO",
+            "estado": 1,
+            "productos": [
+                {
+                    "id": 1,
+                    "codigo": "P001",
+                    "categoria_descripcion": "BEBIDAS",
+                    "categoria": 1,
+                    "nombre": "Coca Cola",
+                    "cantidad": 10,
+                    "unidad_medida_descripcion": "LITROS",
+                    "precio_unitario": 1.5
+                }
+            ]
+        }
+    ]
+}

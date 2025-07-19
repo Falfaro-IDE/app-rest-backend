@@ -1,0 +1,32 @@
+.button-nuevo-cliente {
+    width: 220px;
+}
+
+.tabla-clientes {
+    overflow-y: auto;
+    width: 100%;
+    max-height: 75vh;
+}
+
+.estado-activo-cliente {
+    color: var(--ion-color-precio);
+    padding: 3px;
+    margin-left: 2px;
+    border-radius: 3px;
+}
+
+.div-registrar-cliente{
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 425px) {
+    .div-registrar-cliente{
+        width: 100%;
+    }
+
+    .button-nuevo-cliente {
+        width: 100%;
+        margin: 25px 0px;
+    }
+}

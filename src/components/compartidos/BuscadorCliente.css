@@ -1,0 +1,46 @@
+.buscador-container {
+  position: relative;
+  width: 100%;
+}
+
+.buscador-lista {
+  max-height: 300px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.buscador-spinner {
+  padding: 10px;
+  text-align: center;
+}
+
+.buscador-item-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.buscador-item-nombre {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.buscador-item-codigo {
+  font-size: 0.8em;
+  color: #999;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0 4px;
+  margin-left: auto;
+}
+
+.buscador-item-tipo {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 2px;
+}

@@ -1,0 +1,32 @@
+.div-pedido{
+    height: 100%;
+    justify-content: center;
+    display: flex
+}
+
+.div-producto {
+    width: 65%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.div-detalle-pedido {
+    width: 35%;
+    height: auto;
+}
+
+/* Móvil */
+@media (max-width: 768px) {
+  .div-pedido {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+  }
+
+  .div-producto,
+  .div-detalle-pedido {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
